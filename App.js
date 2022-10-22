@@ -158,7 +158,10 @@ function Receita2({ navigation }) {
           9.
           Num prato fundo, coloque açúcar e canela em pó e misture bem. Passe os bolinhos por essa mistura até envolvê-los completamente. Sirva a seguir. {`\n`}{"\n"}
       </Text>
-      <Button mode="contained" onPress={() => navigation.goBack()}>
+      <Button 
+      mode="contained" onPress={() => navigation.goBack()} 
+      style={{marginBottom: 10, marginHorizontal: 10}}
+      >
         Ver outras receitas
       </Button>
       </ScrollView>
@@ -187,7 +190,10 @@ function Receita3({ navigation }) {
           coloque em forma de 21 a 24cm de diâmetro e leve para assar em 180ºC em forno preaquecido por aproximadamente 50 min. 
 
       </Text>
-      <Button mode="contained" onPress={() => navigation.goBack()}>
+      <Button 
+      mode="contained" onPress={() => navigation.goBack()}
+      style={{marginHorizontal: 10}}
+      >
         Ver outras receitas
       </Button>
     </View>
