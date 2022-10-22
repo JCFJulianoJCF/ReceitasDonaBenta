@@ -35,7 +35,7 @@ function HomeScreen({ navigation }) {
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <PaperProvider>
 
-      <StatusBar style="auto" translucent={false} />
+      <StatusBar style="light" translucent={false} />
       <SafeAreaView style={{ flex: 1 }}>
 
         <ScrollView>
