@@ -1,7 +1,7 @@
 //NOME APP DONA BENTA
 import { StatusBar } from "expo-status-bar";
 import Header from "../ReceitasDonaBenta/components/Header";
-import { StyleSheet, SafeAreaView, ScrollView, View, Text } from "react-native";
+import { SafeAreaView, ScrollView, View, Text } from "react-native";
 import { KeyboardView, Title, Container, Input, ButtonSubmit, TextSubmit } from "./screens/Login/styles";
 import React from "react";
 import { Provider as PaperProvider, Button } from "react-native-paper";
@@ -16,7 +16,7 @@ function Login ({ navigation }){
       <Container>
         <Title>Login</Title>
         <Input 
-        placeholder="E-mail"
+        placeholder="Usuário"
         />
         <Input 
         placeholder="Senha"
@@ -32,7 +32,7 @@ function Login ({ navigation }){
 
 function HomeScreen({ navigation }) {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={{ flex: 1, justifyContent: 'center', marginLeft: 10, marginRight: 10, marginTop: 10}}>
       <PaperProvider>
 
       <StatusBar style="light" translucent={false} />
@@ -41,7 +41,7 @@ function HomeScreen({ navigation }) {
         <ScrollView>
 
           <RecipesPattern
-            style={{ borderWidth: 5, borderColor: "black", marginBottom: 32 }}
+            style={{ borderWidth: 5, borderColor: "black", marginBottom: 32}}
             image="https://img.cybercook.com.br/receitas/434/petit-gateau-840x480.jpeg?q=75"
             title="Petit Gateau do Jacquin"
           >

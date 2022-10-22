@@ -6,7 +6,7 @@ const SQL_CREATE_ENTRIES = [
   `CREATE TABLE IF NOT EXISTS produtos (
       id INTEGER PRIMARY KEY autoincrement,
       nomeCompleto VARCHAR(255) NOT NULL,
-      email VARCHAR(255) NOT NULL,
+      usuario VARCHAR(255) NOT NULL,
       senha VARCHAR(255) NOT NULL
     )`,
 ];

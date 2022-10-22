@@ -36,14 +36,14 @@
 
 //   return {
 //     nomeCompleto: "",
-//     email: "",
+//     usuario: "",
 //     senha: "",
 //   };
 // };
 
 // const UsuarioSchema = Yup.object().shape({
 //   nomeCompleto: Yup.string().min(2, "Mínimo de 2 letras").required("Campo nome obrigatório"),
-//   email: Yup.string().email("E-mail inválido").required("Campo e-mail obrigatório"),
+//   usuario: Yup.string().string("Usuário inválido").required("Campo usuário obrigatório"),
 //   senha: Yup.string().min(8, "Mínimo 8 digitos necessárias").required("Campo senha obrigatório"),
 // });
 
@@ -66,7 +66,7 @@
 //         placeholder="Nome Completo"
 //         />
 //         <Input 
-//         placeholder="E-mail"
+//         placeholder="Usuário"
 //         />
 //         <Input 
 //         placeholder="Senha"
